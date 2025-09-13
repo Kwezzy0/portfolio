@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+    background: #fff;
+    padding: 20px;
+    width: 65%;
+    margin-right: 20px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.tag {
+    color: red;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.autor {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #1f2a44;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 8px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    color: #fff;
+}
