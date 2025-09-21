@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kyrevnm - Porfólio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Exemplo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Conteúdo principal -->
-        <main class="conteudo">
-            <span class="tag">portfólio</span>
-            <h1>Sobre mim:</h1>
-            <p>
-                Por volta de 2022, obtive um interesse em começar a desenvolver jogos para o Roblox através do Roblox Studio, e rapidamente descobri que isto era oque eu gostava, era o meu "hobbie".
-            </p>
-            <h2>O que é portfólio?</h2>
-            <p>
-                Portfólio é uma amostra dos melhores trabalhos de um profissional, empresa ou estudante.
-            </p>
-        </main>
+  <header>
+    <nav>
+      <div class="logo">MEU SITE</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destaques</a></li>
+        <li><a href="#">Mercado</a></li>
+        <li><a href="#">Criar</a></li>
+      </ul>
+      <div class="auth">
+        <button class="btn blue">Cadastrar-se</button>
+        <button class="btn">Entrar</button>
+      </div>
+    </nav>
+  </header>
 
-        <!-- Barra lateral -->
-        <aside class="sidebar">
-            <h3>CATEGORIAS</h3>
-            <ul>
-                <li>Acadêmico</li>
-                <li>Carreira</li>
-                <li>Currículo</li>
-                <li>Enem</li>
-                <li>Graduação</li>
-                <li>Negócios</li>
-                <li>No exterior</li>
-                <li>Notícias</li>
-                <li>Populares</li>
-                <li>Profissões</li>
-                <li>Salário</li>
-                <li>Tech</li>
-                <li>Uncategorized</li>
-                <li>Vestibular</li>
-            </ul>
-        </aside>
+  <main>
+    <div class="login-box">
+      <h2>Adicionar conta</h2>
+      <form>
+        <input type="text" placeholder="Usuário/e-mail/telefone">
+        <input type="password" placeholder="Senha">
+        <button type="submit" class="btn full">Entrar</button>
+
+        <a href="#">Esqueceu a senha ou nome de usuário?</a>
+
+        <hr>
+
+        <button type="button" class="btn gray">Envie-me um código único por e-mail</button>
+        <button type="button" class="btn gray">Use outro dispositivo</button>
+
+        <p>Não possui uma conta? <a href="#">Cadastrar-se</a></p>
+      </form>
     </div>
+  </main>
 </body>
-
 </html>
-
