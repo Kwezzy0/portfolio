@@ -1,60 +1,121 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+header {
+  background: #111;
+  padding: 10px 20px;
+  border-bottom: 1px solid #222;
 }
 
-/* Conteúdo principal */
-.conteudo {
-    background: #fff;
-    padding: 20px;
-    width: 65%;
-    margin-right: 20px;
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-    border-radius: 5px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.tag {
-    color: red;
-    font-size: 14px;
-    text-transform: uppercase;
+nav .logo {
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.autor {
-    font-size: 12px;
-    color: #555;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-/* Sidebar */
-.sidebar {
-    background: #1f2a44;
-    color: white;
-    padding: 20px;
-    width: 25%;
-    border-radius: 5px;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.sidebar h3 {
-    margin-bottom: 10px;
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
+nav .auth {
+  display: flex;
+  gap: 10px;
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+.btn {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
 }
 
-.sidebar ul li {
-    margin: 8px 0;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    color: #fff;
+.btn.blue {
+  background: #2563eb;
+}
+
+.btn.gray {
+  background: #2c2c2c;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.btn.full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+.login-box {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-box form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  background: #2c2c2c;
+  color: #fff;
+}
+
+.login-box form a {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.login-box form a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 15px 0;
+}
+
+.login-box p {
+  margin-top: 15px;
+  font-size: 14px;
 }
